@@ -6,7 +6,9 @@ export const LayoutContainer = styled.div`
   flex-direction: column;
   margin: 0 auto;
   box-sizing: border-box;
+  margin-bottom: 5rem;
 `
 export const LayoutContent = styled.main`
   background-color: ${(props) => props.theme.background};
+  margin-top: 6rem;
 `
